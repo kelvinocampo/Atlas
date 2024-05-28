@@ -32,7 +32,7 @@ header {
 
 .header-top p {
     color: #fff;
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: 100;
 }
 
@@ -66,4 +66,157 @@ h1 {
 .header-content p {
     width: 56rem;
     font-size: 1.6rem;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 6rem 0;
+    gap: 4rem;
+}
+
+.section1-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.section1 h2 {
+    font-size: 4rem;
+    color: #332f2e;
+}
+
+.section1-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #332f2e;
+    text-align: center;
+    gap: .2rem;
+    width: auto;
+}
+
+.section1-item h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.section1-container p {
+    font-weight: 400;
+    width: 24rem;
+}
+
+.section1-item .img {
+    height: 15rem;
+    width: 14rem;
+}
+
+.bg-whiteGreen {
+    background: linear-gradient(168deg, #fff 60%, #00ffae 0)
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 6rem 0;
+    color: #332f2e;
+}
+
+.section2-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section2-item .text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section2-item h2 {
+    font-size: 3rem;
+}
+
+.section2-item .text button {
+    margin-top: 2rem;
+    padding: .8rem 2.4rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #192440;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.section2-item .text p {
+    width: 42rem;
+}
+
+.item-dark {
+    background-color: #192440;
+    color: white;
+    border-radius: 4px;
+}
+
+.section3-item .button-dark {
+    border: none;
+    background-color: #00ffae;
+}
+
+.section3 {
+    color: #332f2e;
+    padding: 4rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3-container {
+    display: flex;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.section3-item {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 28rem;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.section3 h2 {
+    font-size: 3rem;
+}
+
+.section3-item button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #192440;
+    border-radius: 2rem;
+    font-weight: 700;
+    border: #192440 3px solid;
+    background-color: #fff;
+}
+
+.text-strong {
+    font-weight: 700;
+}
+
+.section3-item h3 {
+    font-size: 2rem;
+}
+
+.section3-item p span {
+    font-size: 6rem;
+    font-weight: 700;
 }
