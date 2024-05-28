@@ -220,10 +220,16 @@ h1 {
     font-size: 6rem;
     font-weight: 700;
 }
-.colaborators{
+
+.colaborators {
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     background-color: #edeff0;
-    padding: 2rem 0;
+    padding: 4rem 0;
     display: flex;
+}
+
+.colaborators .img {
+    width: 12rem;
+    height: 6rem;
 }
