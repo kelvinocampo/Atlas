@@ -64,7 +64,7 @@ h1 {
 }
 
 .header-content p {
-    width: 56rem;
+    width: 60%;
     font-size: 1.6rem;
 }
 
@@ -96,7 +96,7 @@ h1 {
     color: #332f2e;
     text-align: center;
     gap: .2rem;
-    width: auto;
+    width: 30%;
 }
 
 .section1-item h3 {
@@ -106,7 +106,7 @@ h1 {
 
 .section1-container p {
     font-weight: 400;
-    width: 24rem;
+    width: 70%;
 }
 
 .section1-item .img {
@@ -180,6 +180,7 @@ h1 {
 .section3-container {
     display: flex;
     padding: 2rem 0;
+    width: 100%;
     gap: 2rem;
 }
 
@@ -188,7 +189,7 @@ h1 {
     gap: 1rem;
     flex-direction: column;
     align-items: center;
-    width: 28rem;
+    width: 30%;
     text-align: center;
     padding: 5rem 0;
 }
@@ -299,6 +300,7 @@ textarea {
     justify-content: stretch;
     gap: 1rem;
 }
+
 .textarea-container {
     display: flex;
     flex-direction: column;
@@ -329,7 +331,8 @@ footer {
     background-color: #192440;
     color: #fff;
 }
-footer p{
+
+footer p {
     font-size: 1.4rem;
 }
 
@@ -337,4 +340,23 @@ footer p{
     display: flex;
     justify-content: center;
     gap: .5rem;
+}
+
+@media (max-width:1279px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .colaborators {
+        padding: 2rem 0;
+        flex-wrap: wrap;
+    }
+
+    .colaborators .img {
+        width: 10rem;
+        height: 6rem;
+    }
+    .section1,.section2{
+        padding: 2rem 0;
+    }
 }
