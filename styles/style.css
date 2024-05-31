@@ -344,7 +344,7 @@ footer p {
 
 @media (max-width:1279px) {
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .colaborators {
@@ -356,7 +356,149 @@ footer p {
         width: 10rem;
         height: 6rem;
     }
-    .section1,.section2{
+
+    .section1,
+    .section2 {
         padding: 2rem 0;
+    }
+
+    .section2-item {
+        justify-content: center;
+    }
+
+    .section2-item .text p {
+        width: 70%;
+    }
+
+    .section2-item .text {
+        width: 50%;
+    }
+}
+
+@media (max-width:920px) {
+    .section2-item .img {
+        display: none;
+    }
+
+    .section1 h2 {
+        font-size: 3rem;
+    }
+
+    .section2-item .text {
+        width: 80%;
+    }
+
+    .section2-2 .text {
+        align-items: flex-end;
+    }
+}
+
+@media (max-width:768px) {
+    .header-content p {
+        width: 90%;
+    }
+
+    .section1-container {
+        flex-wrap: wrap;
+    }
+
+    .section1-item {
+        width: 100%;
+    }
+
+    header {
+        padding: 3rem;
+    }
+
+    .section1 h2 {
+        font-size: 2rem;
+    }
+
+    .section1-item p {
+        font-size: 1.2rem;
+    }
+
+    .section3-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section3-item {
+        width: 80%;
+    }
+
+    .section3-item p {
+        font-size: 2rem;
+    }
+
+    .section3-item p span {
+        font-size: 8rem;
+    }
+
+    .section3-item button,
+    .section2-item .text button {
+        font-size: 1.3rem;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+
+    form {
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: 2rem 3rem;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .icons {
+        width: 80%;
+    }
+}
+
+@media (max-width:480px) {
+    .section3-item {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .section2-item {
+        text-align: center;
+    }
+
+    .section2-2 {
+        text-align: initial;
+    }
+
+    .section2-item .text {
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .header-content p {
+        font-size: 1rem;
+    }
+
+    .section1 h2,
+    .section3 h2,
+    .section2-item h2 {
+        font-size: 1.6rem;
+    }
+
+    .section3-item p {
+        font-size: 1.2rem;
+    }
+
+    .section3-item p span {
+        font-size: 4rem;
     }
 }
