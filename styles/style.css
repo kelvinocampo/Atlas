@@ -488,10 +488,26 @@ footer p {
         font-size: 1rem;
     }
 
+    .section1 {
+        text-align: center;
+    }
+
     .section1 h2,
     .section3 h2,
-    .section2-item h2 {
+    .section2-item h2,
+    .contact h2 {
         font-size: 1.6rem;
+    }
+
+    .header-top {
+        flex-wrap: wrap;
+    }
+    .header-top .img {
+        width: 4rem;
+    height: 4rem;
+    }
+    .header-top p {
+        font-size: 1.2rem;
     }
 
     .section3-item p {
@@ -501,4 +517,25 @@ footer p {
     .section3-item p span {
         font-size: 4rem;
     }
+
+    .contact-p {
+        width: 100%;
+    }
+
+    .contact .text {
+        width: 90%;
+    }
+
+    .contact {
+        padding: 4rem 0;
+    }
+
+    .col1-form {
+        flex-wrap: wrap;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
 }
