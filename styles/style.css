@@ -338,6 +338,10 @@ footer p {
     font-size: 1.4rem;
 }
 
+.img-big {
+    transform: scale(0.7);
+}
+
 .icons {
     display: flex;
     justify-content: center;
@@ -371,7 +375,7 @@ footer p {
     .section2-item .text p {
         width: 70%;
     }
-    
+
     .section2-item .text {
         width: 50%;
     }
@@ -381,7 +385,8 @@ footer p {
     .section2-item .img {
         display: none;
     }
-    .section1 h2{
+
+    .section1 h2 {
         width: 90%;
     }
 
@@ -507,10 +512,12 @@ footer p {
     .header-top {
         flex-wrap: wrap;
     }
+
     .header-top .img {
         width: 4rem;
-    height: 4rem;
+        height: 4rem;
     }
+
     .header-top p {
         font-size: 1.2rem;
     }
